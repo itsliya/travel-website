@@ -1,0 +1,407 @@
+body {
+  margin: 0px;
+  background-color: white;
+  font-family: 'Lora', serif;
+}
+
+.portfolio .sun img {
+  position: absolute;
+  left: -110px;
+  bottom: 195px;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 0.3, 0.3, 0);
+  border: 1px solid white;
+}
+
+img {
+  margin: auto;
+  margin-top: 200px;
+  margin-left: 640px;
+  left: 460px;
+}
+
+.pages-container {
+  position: absolute;
+  bottom: 160px;
+  background-color: white;
+  width: 0;
+  height: 1000px;
+  opacity: 0;
+  z-index: 903;
+}
+
+.pages {
+  position: absolute;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  justify-content: center;
+  z-index: 903;
+  word-spacing: 5px;
+  top: 445px;
+  left: 0px;
+
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 5px white;
+}
+
+#ethiopia {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 365px;
+
+}
+
+#home {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 432px;
+  bottom: 240px;
+
+}
+
+#berkeley {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  left: 490px;
+
+}
+
+
+.copies-1-container {
+  position: absolute;
+  bottom: 160px;
+  background-color: white;
+  width: 0;
+  height: 1000px;
+  opacity: 0;
+  z-index: 903;
+}
+
+.copies-1 {
+  position: absolute;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  justify-content: center;
+  z-index: 903;
+  word-spacing: 5px;
+  top: 445px;
+  left: 0px;
+
+}
+
+.copies-1 a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.copies-1 a:hover {
+  text-shadow: 0 0 5px white;
+}
+
+
+.copies-1 #ethiopia {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 365px;
+
+}
+
+.copies-1 #home {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 432px;
+  bottom: 240px;
+
+}
+
+.copies-1 #berkeley {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  left: 490px;
+
+}
+
+.copies-2-container {
+  position: absolute;
+  bottom: 160px;
+  background-color: white;
+  width: 0;
+  height: 1000px;
+  opacity: 0;
+  z-index: 903;
+}
+
+.copies-2 {
+  position: absolute;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  justify-content: center;
+  z-index: 903;
+  word-spacing: 5px;
+  top: 445px;
+  left: 0px;
+
+}
+
+.copies-2 a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.copies-2 a:hover {
+  text-shadow: 0 0 5px white;
+}
+
+.copies-2 #ethiopia {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 365px;
+
+}
+
+.copies-2 #home {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 432px;
+  bottom: 240px;
+
+}
+
+.copies-2 #berkeley {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  left: 490px;
+
+}
+
+.content-wrapper {
+  position: relative;
+  top: 550px;
+}
+
+.entire-page-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.content-page {
+  padding-bottom: 115px;
+}
+
+.portfolio .header {
+  position: absolute;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-weight: 500;
+  left: 497px;
+  bottom: 130px;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 0.3, 0.3, 0);
+
+}
+
+.portfolio {
+  bottom: 15px;
+  position: fixed;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  z-index: -1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  z-index: 902;
+
+
+}
+
+#content-container {
+  display: block;
+  position: relative;
+  color: #fff;
+  z-index: 902;
+  height:100%;
+  left:0;
+  top:0;
+  width:100%;
+
+}
+
+.content-header {
+  position: absolute;
+  bottom: 470px;
+  left: 150px;
+  font-size: 39px;
+  font-weight: 100;
+  font-weight: lighter;
+  font-family: 'Karla', sans-serif;
+  text-align: left;
+  word-wrap: none;
+  white-space: nowrap;
+}
+
+.content-description {
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-align: left;
+  text-align: left;
+  font-weight: 100;
+
+}
+
+.content-block-1 .content-header {
+  text-shadow: 2px 2px 1px #69D497;
+}
+
+.content-block-1 .content-description {
+  position: absolute;
+  bottom: 250px;
+  left: 150px;
+
+}
+
+.maybe img {
+  position: absolute;
+  left: -620px;
+  bottom: 1920px;
+  border: none;
+  transform: scale(0.6);
+  z-index: 903;
+}
+
+.content-block-2 .content-header {
+  bottom: 520px;
+  text-shadow: 2px 2px 1px #69D497;
+
+}
+.content-block-2 .content-description {
+  position: absolute;
+  bottom: 290px;
+  left: 155px;
+}
+
+.coffee-ceremony img {
+  position: absolute;
+  left: -500px;
+  bottom: 800px;
+  border: none;
+  transform: scale(0.7);
+  z-index: 903;
+}
+
+.content-block-3 .content-header {
+  bottom: 440px;
+  text-shadow: 2px 2px 1px #69D497;
+
+}
+
+.content-block-3 .content-description {
+  position: absolute;
+  bottom: 380px;
+  left: 155px;
+}
+
+.heart img {
+  position: absolute;
+  left: -510px;
+  bottom: 190px;
+  transform: scale(0.9);
+  border: none;
+  z-index: 903;
+}
+
+.content-page-number {
+  position: absolute;
+  margin-top: 200px;
+  left: 60px;
+  font-size: 32px;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.images #number-2, #number-3 {
+  margin-bottom: 55px;
+}
+
+.images #number-1 {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.content-column {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.content-block {
+  position: relative;
+  text-align: center;
+}
+
+#video-container {
+  background-size:cover;
+  perspective:1000;
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  z-index: 902;
+
+}
+
+.background-darkener {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 901;
+  background-color: #000;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scale(1.2);
+  overflow: hidden;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 902;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 0.3, 0.3, 0);
+}
+
+/*ARROW*/
+.arrow {
+  position: fixed;
+  color: white;
+  z-index: 902;
+  transform: scale(0.3) translate(60%, 500%);
+}
